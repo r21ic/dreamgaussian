@@ -24,7 +24,7 @@ class StableDiffusion(nn.Module):
         device,
         fp16=True,
         vram_O=False,
-        sd_version="2.1",
+        sd_version="1.5",
         hf_key=None,
         t_range=[0.02, 0.98],
     ):
